@@ -1,0 +1,43 @@
+﻿Построение начато 10.05.2012 16:34:19.
+     1>Проект "C:\development\proj\proj\proj.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release\proj.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         Для всех выходных данных обновления не требуется.
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\proj.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt actionscene.cpp
+         actionscene.cpp
+       ResourceCompile:
+         Для всех выходных данных обновления не требуется.
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\development\proj\Release\proj.exe" /INCREMENTAL:NO /NOLOGO dinput8.lib dxguid.lib winmm.lib d3dx9.lib d3d9.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\proj.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\development\proj\Release\proj.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\development\proj\Release\proj.lib" /MACHINE:X86 Release\proj.res
+         Release\actionscene.obj
+         Release\camera.obj
+         Release\configur.obj
+         Release\delete.obj
+         Release\initdirect.obj
+         Release\InitInput.obj
+         Release\light.obj
+         Release\manipul.obj
+         Release\mesh.obj
+         Release\Placer.obj
+         Release\proj.obj
+         Release\renderbegin.obj
+         Release\renderroad.obj
+         Release\setcourse.obj
+         Release\stdafx.obj
+         Release\text.obj
+         Release\tools.obj
+         Release\xmlreader.obj
+         Создание кода
+         Создание кода завершено
+         proj.vcxproj -> C:\development\proj\Release\proj.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\development\proj\Release\proj.exe;#1" /manifest Release\proj.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Release\proj.unsuccessfulbuild" удаляется.
+         Обращение к "Release\proj.lastbuildstate".
+     1>Построение проекта "C:\development\proj\proj\proj.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:01.61

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0"?>
+<AIBase>
+	<concept name="П1" comments="Нужно повернуть налево"/>
+	<concept name="П2" comments="Нужно повернуть направо"/>
+	<concept name="П3" comments="Нужно проехать прямо"/>
+	<concept name="П4" comments="Машина слева поворачивает направо"/>
+	<concept name="П5" comments="Машина слева поворачивает налево"/>
+	<concept name="П6" comments="Машина слева едет прямо"/>
+	<concept name="П7" comments="Машина справа поворачивает направо"/>
+	<concept name="П8" comments="Машина справа поворачивает налево"/>
+	<concept name="П9" comments="Машина справа едет прямо"/>
+	<concept name="П10" comments="Машина напротив поворачивает направо"/>
+	<concept name="П11" comments="Машина напротив поворачивает налево"/>
+	<concept name="П12" comments="Машина напротив едет прямо"/>
+	<concept name="ОП1" comments="Двигаться прямо">
+		<PRDU>
+			<element name="П3" w="1.00000" ODZname="1"/>
+			<element name="П7" w="1.00000" ODZname="0"/>
+			<element name="П8" w="1.00000" ODZname="0"/>
+			<element name="П9" w="1.00000" ODZname="0"/>
+		</PRDU>
+	</concept>
+	<concept name="ОП2" comments="Двигаться налево">
+		<PRDU>
+			<element name="П1" w="1.00000" ODZname="1"/>
+			<element name="П8" w="1.00000" ODZname="0"/>
+			<element name="П9" w="1.00000" ODZname="0"/>
+			<element name="П10" w="1.00000" ODZname="0"/>
+			<element name="П12" w="1.00000" ODZname="0"/>
+		</PRDU>
+	</concept>
+	<concept name="ОП3" comments="Двигаться направо">
+		<PRDU>
+			<element name="П2" w="1.00000" ODZname="1"/>	
+		</PRDU>
+	</concept>
+</AIBase>
